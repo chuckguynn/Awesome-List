@@ -1,0 +1,32 @@
+<h1>Awesome Music</h1>
+<div class="center hero-unit">
+<table>
+  <tr>
+    <h3>Your Music</h3>
+  </tr>
+<% if user_signed_in? %>
+ <% @musics.each do |music| %>
+  <tr>
+    <td>
+        <% if music.image.exists? %>
+        <%= image_tag music.image.url(:thumb) %>
+        <% end %>
+    </td>
+    <td><strong><%= music.artist %></strong></td>
+    <td><%= music.album %></td>
+    </tr>  
+  <tr>
+    <td><%= link_to 'Details', music %></td>
+    <td><%= link_to 'Edit', edit_music_path(music) %></td>
+    <td><%= link_to 'Remove', music, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+   <% end %>
+  <% else %>
+  <% link_to "Home", root_path %>
+<% end %>
+</div>
+</table>
+
+<br />
+
+<%= link_to 'Add New Music', new_music_path %>

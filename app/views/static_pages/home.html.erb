@@ -1,0 +1,23 @@
+<% if user_signed_in? %>
+	<h1>Welcome!</h1>
+
+	<h2>View Your Awesome Lists</h2>
+	<h2><%= link_to "Movies", movies_path %></h2>
+	<h2><%= link_to "Music", musics_path %></h2>
+	<h2><%= link_to "Books", books_path %></h2>
+
+<% else %> 
+
+
+<div class="center hero-unit">
+    <h1>Welcome to Awesome List</h1>
+
+    <h2>
+      Make Your Own Lists of Your Favortie Movies, Music and Books
+      in one application.
+    </h2>
+
+    <%= link_to "Sign up now!", new_user_registration_path, 
+                                class: "btn btn-large btn-primary" %>
+</div>
+<% end %>

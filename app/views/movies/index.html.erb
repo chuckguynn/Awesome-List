@@ -1,0 +1,31 @@
+<h1>Awesome Movies</h1>
+<div class="center hero-unit">
+<table>
+  <tr>
+    <h3>Your Movies</h3>
+  </tr>
+<% if user_signed_in? %>
+ <% @movies.each do |movie| %>
+  <tr>
+    <td>
+        <% if movie.image.exists? %>
+        <%= image_tag movie.image.url(:thumb) %>
+        <% end %>
+    </td>
+    <td><strong><%= movie.title %></strong></td>
+    </tr>  
+  <tr>
+    <td><%= link_to 'Details', movie %></td>
+    <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
+    <td><%= link_to 'Remove', movie, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+   <% end %>
+  <% else %>
+  <% link_to "Home", root_path %>
+<% end %>
+</div>
+</table>
+
+<br />
+
+<%= link_to 'Add New Movie', new_movie_path %>

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Artist:</b>
+  <%= @music.artist %>
+</p>
+<p>
+  <% if @music.image.exists? %>
+  <%= image_tag @music.image.url(:medium) %>
+  <% end %>
+</p>
+<p>
+  <b>Album:</b>
+  <%= @music.album %>
+</p>
+
+<p>
+  <b>Genre:</b>
+  <%= @music.genre %>
+</p>
+
+<p>
+  <b>Favorite song:</b>
+  <%= @music.favorite_song %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @music.comments %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_music_path(@music) %> |
+<%= link_to 'Back', musics_path %>
