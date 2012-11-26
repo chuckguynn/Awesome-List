@@ -26587,3 +26587,1659 @@ Served asset /musics.js - 304 Not Modified (0ms)
 
 Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-23 20:56:32 -0600
 Served asset /static_pages.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 09:20:24 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 402ms (Views: 401.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /custom.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:25 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.2/app/views/devise/shared/_links.erb (1.6ms)
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.2/app/views/devise/sessions/new.html.erb within layouts/application (97.4ms)
+Completed 200 OK in 194ms (Views: 120.0ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:31 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-11-26 09:20:43 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dfc1dY+PnNXaoT7gciL5GTMDJCxddcWklh392l+VNwU=", "user"=>{"email"=>"nolefan76@live.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (21.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'nolefan76@live.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2012-11-24 02:19:38.233007', "current_sign_in_at" = '2012-11-26 15:20:43.957507', "sign_in_count" = 10, "updated_at" = '2012-11-26 15:20:43.958351' WHERE "users"."id" = 2[0m
+  [1m[35m (2.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 193ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:44 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mMovie Load (11.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."user_id" = 2[0m
+  Rendered movies/index.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 39ms (Views: 25.7ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:46 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:20:48 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 09:29:09 -0600
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered static_pages/home.html.erb within layouts/application (44.9ms)
+Compiled jquery.js  (3ms)  (pid 12686)
+Compiled jquery_ujs.js  (0ms)  (pid 12686)
+Compiled application.js  (37ms)  (pid 12686)
+Completed 200 OK in 144ms (Views: 141.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /custom.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /movies.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /musics.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /movies.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:29:10 -0600
+Served asset /application.js - 304 Not Modified (4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 09:51:03 -0600
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."user_id" = 2
+  Rendered movies/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 121ms (Views: 72.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:03 -0600
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:03 -0600
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:03 -0600
+Served asset /movies.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:04 -0600
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:04 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:04 -0600
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:04 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:04 -0600
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:04 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:04 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:04 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:04 -0600
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started DELETE "/movies/7" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dfc1dY+PnNXaoT7gciL5GTMDJCxddcWklh392l+VNwU=", "id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (2.6ms)[0m  DELETE FROM "movies" WHERE "movies"."id" = ?  [["id", 7]]
+[paperclip] Deleting attachments.
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/movies/images/000/000/007/original/star_wars.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/movies/images/000/000/007/medium/star_wars.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/movies/images/000/000/007/thumb/star_wars.jpg
+  [1m[36m (5.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 17ms (ActiveRecord: 8.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."user_id" = 2[0m
+  Rendered movies/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:08 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/movies/8" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dfc1dY+PnNXaoT7gciL5GTMDJCxddcWklh392l+VNwU=", "id"=>"8"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", "8"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+[paperclip] Scheduling attachments for deletion.
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 8]]
+[paperclip] Deleting attachments.
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/movies/images/000/000/008/original/unforgiven.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/movies/images/000/000/008/medium/unforgiven.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/movies/images/000/000/008/thumb/unforgiven.jpg
+  [1m[35m (2.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 11ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."user_id" = 2
+  Rendered movies/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /scaffolds.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:11 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:15 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/musics" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Processing by MusicsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mMusic Load (0.1ms)[0m  [1mSELECT "musics".* FROM "musics" WHERE "musics"."user_id" = 2[0m
+  Rendered musics/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:17 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/musics/1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Processing by MusicsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dfc1dY+PnNXaoT7gciL5GTMDJCxddcWklh392l+VNwU=", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mMusic Load (0.1ms)[0m  [1mSELECT "musics".* FROM "musics" WHERE "musics"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+[paperclip] Scheduling attachments for deletion.
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "musics" WHERE "musics"."id" = ?[0m  [["id", 1]]
+[paperclip] Deleting attachments.
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/musics/images/000/000/001/original/kenny_chesney.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/musics/images/000/000/001/medium/kenny_chesney.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/musics/images/000/000/001/thumb/kenny_chesney.jpg
+  [1m[35m (5.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/musics
+Completed 302 Found in 14ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/musics" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Processing by MusicsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mMusic Load (0.1ms)[0m  SELECT "musics".* FROM "musics" WHERE "musics"."user_id" = 2
+  Rendered musics/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:20 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/musics/2" for 127.0.0.1 at 2012-11-26 09:51:22 -0600
+Processing by MusicsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dfc1dY+PnNXaoT7gciL5GTMDJCxddcWklh392l+VNwU=", "id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mMusic Load (0.1ms)[0m  SELECT "musics".* FROM "musics" WHERE "musics"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "musics" WHERE "musics"."id" = ?  [["id", 2]]
+[paperclip] Deleting attachments.
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/musics/images/000/000/002/original/ZacBrownBand-02-big.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/musics/images/000/000/002/medium/ZacBrownBand-02-big.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/musics/images/000/000/002/thumb/ZacBrownBand-02-big.jpg
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/musics
+Completed 302 Found in 13ms (ActiveRecord: 5.6ms)
+
+
+Started GET "/musics" for 127.0.0.1 at 2012-11-26 09:51:22 -0600
+Processing by MusicsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mMusic Load (0.1ms)[0m  [1mSELECT "musics".* FROM "musics" WHERE "musics"."user_id" = 2[0m
+  Rendered musics/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:22 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:22 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:22 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:22 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:22 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:23 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:23 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:23 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:23 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:23 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."user_id" = 2
+  Rendered books/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:26 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/books/1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dfc1dY+PnNXaoT7gciL5GTMDJCxddcWklh392l+VNwU=", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "books" WHERE "books"."id" = ?  [["id", 1]]
+[paperclip] Deleting attachments.
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/books/images/000/000/001/original/deception_point.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/books/images/000/000/001/medium/deception_point.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/books/images/000/000/001/thumb/deception_point.jpg
+  [1m[36m (5.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 14ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."user_id" = 2[0m
+  Rendered books/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/books/2" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dfc1dY+PnNXaoT7gciL5GTMDJCxddcWklh392l+VNwU=", "id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+[paperclip] Scheduling attachments for deletion.
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 2]]
+[paperclip] Deleting attachments.
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/books/images/000/000/002/original/ender.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/books/images/000/000/002/medium/ender.jpg
+[paperclip] deleting /Users/chuckguynn/Awesome-List/public/system/books/images/000/000/002/thumb/ender.jpg
+  [1m[35m (1.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/books
+Completed 302 Found in 12ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."user_id" = 2
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dfc1dY+PnNXaoT7gciL5GTMDJCxddcWklh392l+VNwU="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194@global/gems/devise-2.1.2/app/views/devise/shared/_links.erb (1.1ms)
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194@global/gems/devise-2.1.2/app/views/devise/sessions/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:34 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y/tc+eccVezeQVd6G301E9rWIAZ1IykUZZ7JytJ9hiQ=", "user"=>{"email"=>"chuckguynn@me.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'chuckguynn@me.com' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2012-11-24 02:09:25.414053', "current_sign_in_at" = '2012-11-26 15:51:42.521005', "sign_in_count" = 7, "updated_at" = '2012-11-26 15:51:42.521533' WHERE "users"."id" = 1
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 73ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:42 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."user_id" = 1
+  Rendered movies/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:44 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/musics" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Processing by MusicsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mMusic Load (0.1ms)[0m  SELECT "musics".* FROM "musics" WHERE "musics"."user_id" = 1
+  Rendered musics/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:47 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."user_id" = 1
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Y/tc+eccVezeQVd6G301E9rWIAZ1IykUZZ7JytJ9hiQ="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 09:51:53 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DeviseCreateUsers (20121123051416)
+Migrating to CreateMovies (20121123055844)
+Migrating to CreateMusics (20121123060012)
+Migrating to CreateBooks (20121123060116)
+Migrating to AddPaperclipFieldsToBook (20121123192311)
+Migrating to AddPaperclipFieldsToMusic (20121123192319)
+Migrating to AddPaperclipFieldsToMovie (20121123192326)
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("books")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("movies")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("musics")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_reset_password_token')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (5.9ms)[0m  [1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "author" varchar(255), "year" integer, "description" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "image_file_name" varchar(255), "image_content_type" varchar(255), "image_file_size" integer, "image_updated_at" datetime) [0m
+  [1m[35m (1.8ms)[0m  CREATE TABLE "movies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "director" varchar(255), "actors" varchar(255), "year" integer, "genre" varchar(255), "description" text, "user_id" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "image_file_name" varchar(255), "image_content_type" varchar(255), "image_file_size" integer, "image_updated_at" datetime) 
+  [1m[36m (2.0ms)[0m  [1mCREATE TABLE "musics" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "artist" varchar(255), "album" varchar(255), "genre" varchar(255), "favorite_song" varchar(255), "comments" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "image_file_name" varchar(255), "image_content_type" varchar(255), "image_file_size" integer, "image_updated_at" datetime) [0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (2.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_email')
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20121123192326')
+  [1m[36m (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20121123051416')[0m
+  [1m[35m (2.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20121123055844')
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20121123060012')[0m
+  [1m[35m (1.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20121123060116')
+  [1m[36m (1.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20121123192311')[0m
+  [1m[35m (1.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20121123192319')
