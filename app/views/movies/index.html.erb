@@ -15,7 +15,7 @@
     <td><strong><%= movie.title %></strong></td>
     <td><%= movie.director %></td>
     </tr>
-    <tr>
+  <tr>
     <td><%= link_to 'Details', movie %></td>
     <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
     <td><%= link_to 'Remove', movie, method: :delete, data: { confirm: 'Are you sure?' } %></td>

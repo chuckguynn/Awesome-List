@@ -2,7 +2,6 @@ class MoviesController < ApplicationController
   before_filter :authenticate_user!
   # GET /movies
   # GET /movies.json
-  
   def index
     @movies = Movie.where(:user_id => current_user)
 
