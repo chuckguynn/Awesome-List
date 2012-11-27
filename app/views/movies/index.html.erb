@@ -4,7 +4,7 @@
   <tr>
     <h3>Your Movies</h3>
   </tr>
-<% if current_user %>
+<% if user_signed_in? %>
  <% @movies.each do |movie| %>
   <tr>
     <td>
