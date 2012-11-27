@@ -31533,3 +31533,171 @@ Served asset /musics.js - 304 Not Modified (0ms)
 
 Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 17:48:45 -0600
 Served asset /static_pages.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."user_id" = 2
+  Rendered movies/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 132ms (Views: 54.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /movies.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 19:08:59 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:01 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."user_id" = 2[0m
+  Rendered movies/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 19:09:03 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
