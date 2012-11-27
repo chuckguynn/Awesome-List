@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121123192326) do
+ActiveRecord::Schema.define(:version => 20121127032034) do
 
   create_table "books", :force => true do |t|
     t.string   "title"
@@ -34,9 +34,9 @@ ActiveRecord::Schema.define(:version => 20121123192326) do
     t.integer  "year"
     t.string   "genre"
     t.text     "description"
-    t.string   "user_id"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.integer  "user_id",            :limit => 255
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
     t.string   "image_file_name"
     t.string   "image_content_type"
     t.integer  "image_file_size"
