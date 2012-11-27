@@ -31741,3 +31741,303 @@ Migrating to AddPaperclipFieldsToMovie (20121123192326)
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
   [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_reset_password_token')
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+Connecting to database specified by database.yml
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 20:07:09 -0600
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 401 Unauthorized in 69ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.2/app/views/devise/shared/_links.erb (1.4ms)
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.2/app/views/devise/sessions/new.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 107ms (Views: 97.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /movies.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:10 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.2/app/views/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.2/app/views/devise/registrations/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 20:07:21 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-11-26 20:07:37 -0600
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Bj9+PZUuonXfvbQegLPS4pyMF3h0ejcWiOmyyQ9NzmY=", "user"=>{"email"=>"nolefan76@live.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'nolefan76@live.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (4.5ms)[0m  INSERT INTO "users" ("created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "last_sign_in_at", "last_sign_in_ip", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 27 Nov 2012 02:07:37 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "nolefan76@live.com"], ["encrypted_password", "$2a$10$ZmBh6DSYND2eaw71Cn5aOehmsBT68ebvcFDUMSGATsCxWBqiNXajG"], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["updated_at", Tue, 27 Nov 2012 02:07:37 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2012-11-27 02:07:37.830338', "current_sign_in_at" = '2012-11-27 02:07:37.830338', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2012-11-27 02:07:37.831025' WHERE "users"."id" = 1[0m
+  [1m[35m (1.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 147ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 20:07:37 -0600
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered movies/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Cannot visit User):
+    5:     <h3>Your Movies</h3>
+    6:   </tr>
+    7: <% if user_signed_in? %>
+    8:  <% @movies.each do |movie| %>
+    9:   <tr>
+    10:     <td>
+    11:         <% if movie.image.exists? %>
+  app/views/movies/index.html.erb:8:in `_app_views_movies_index_html_erb__4391775360524771889_70303041388240'
+  app/controllers/movies_controller.rb:8:in `index'
+
+
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (25.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Bj9+PZUuonXfvbQegLPS4pyMF3h0ejcWiOmyyQ9NzmY=", "user"=>{"email"=>"nolefan76@live.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 20ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:15 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 20:08:18 -0600
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."user" = 1[0m
+SQLite3::SQLException: no such column: movies.user: SELECT "movies".* FROM "movies"  WHERE "movies"."user" = 1
+  Rendered movies/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: movies.user: SELECT "movies".* FROM "movies"  WHERE "movies"."user" = 1):
+    5:     <h3>Your Movies</h3>
+    6:   </tr>
+    7: <% if user_signed_in? %>
+    8:  <% @movies.each do |movie| %>
+    9:   <tr>
+    10:     <td>
+    11:         <% if movie.image.exists? %>
+  app/views/movies/index.html.erb:8:in `_app_views_movies_index_html_erb__4391775360524771889_70303041388240'
+  app/controllers/movies_controller.rb:8:in `index'
+
+
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (23.0ms)
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chuckguynn/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."user_id" = 1[0m
+  Rendered movies/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 8.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-11-26 20:08:41 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
