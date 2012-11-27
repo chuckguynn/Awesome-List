@@ -8,11 +8,7 @@
  <% @movies.each do |movie| %>
   <tr>
     <td>
-        <% if movie.image.exists? %>
         <%= image_tag movie.image.url(:thumb) %>
-        <% else %>
-        <%= movie.image = nil %>
-        <% end %>
     </td>
     <td><strong><%= movie.title %></strong></td>
     <td><%= movie.director %></td>
