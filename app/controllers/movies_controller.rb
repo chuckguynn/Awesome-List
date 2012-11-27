@@ -3,7 +3,7 @@ class MoviesController < ApplicationController
   # GET /movies
   # GET /movies.json
   def index
-    @movies = Movie.where(:user_id => current_user)
+    @movies = Movie.where(:user => current_user)
 
     respond_to do |format|
       format.html # index.html.erb
