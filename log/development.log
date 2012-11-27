@@ -32476,3 +32476,21 @@ Migrating to ChangeUsedIdForMovies (20121127032034)
   [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_reset_password_token')
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DeviseCreateUsers (20121123051416)
+Migrating to CreateMovies (20121123055844)
+Migrating to CreateMusics (20121123060012)
+Migrating to CreateBooks (20121123060116)
+Migrating to AddPaperclipFieldsToBook (20121123192311)
+Migrating to AddPaperclipFieldsToMusic (20121123192319)
+Migrating to AddPaperclipFieldsToMovie (20121123192326)
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("books")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("movies")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("musics")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_reset_password_token')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
