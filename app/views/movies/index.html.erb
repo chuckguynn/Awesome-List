@@ -5,7 +5,7 @@
     <h3>Your Movies</h3>
   </tr>
 <% if user_signed_in? %>
- <% @movies.each do |movie| %>
+ <% @movie.each do |movie| %>
   <tr>
     <td>
         <% if movie.image.exists? %>

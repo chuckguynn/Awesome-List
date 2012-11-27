@@ -42,7 +42,7 @@ class MoviesController < ApplicationController
   # POST /movies.json
   def create
     @movie = Move.new(params[:movie])
-    @movie.user = current_user.id
+    @movie.user_id = current_user.id
     respond_to do |format|
       if @movie.save
         format.html { redirect_to @movie, notice: 'Movie was successfully created.' }
